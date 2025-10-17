@@ -35,15 +35,6 @@ Untuk deploy project ini, bisa mengikuti langkah-langkah berikut :
 ```
 
 
-## Tech Stack
-
-**Frontend (Client):** Svelte, Typescript
-
-**Backend (Server):** Golang
-
-**Database:** Supabase
-
-
 ## Table Schema
 ```bash
 create type expense_category as enum ('Food', 'Transport', 'Shopping', 'Other');
@@ -58,3 +49,12 @@ create table public.expenses (
   created_at timestamptz not null default now()
 );
 ```
+
+
+## Tech Stack
+
+**Frontend (Client):** Svelte, Typescript
+
+**Backend (Server):** Golang
+
+**Database:** Supabase
